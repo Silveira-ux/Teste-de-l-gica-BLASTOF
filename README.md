@@ -1,2 +1,2 @@
-# Teste_faculdade_GITHUB
-Realizando um teste GITHUB
+# Teste de lógica BLASTOFF
+Teste de lógica BLASTOFF
