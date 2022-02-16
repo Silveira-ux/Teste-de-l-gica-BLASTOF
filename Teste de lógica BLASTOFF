@@ -1,0 +1,107 @@
+PRIMEIRA QUESTÃO
+
+            int I = 10;
+            int J = 20;
+            int K = 25;
+            int X = 30;
+            int Y = 35;
+            double media = 0;
+
+            media = (I + J + K + X + Y) / 5;
+
+            Console.WriteLine("Média entre as idades é: " + media);
+
+
+SEGUNDA QUESTÃO
+
+    	    int distancia = 1000;
+            int gasolina = 50;
+            int media = distancia / gasolina;
+
+            Console.WriteLine("O carro consumirá 1 litro a cada " + media + "Quilometros");
+
+TERCEIRA QUESTÃO
+            int a = 10;
+            int b = 20;
+            int c = 25;
+
+            if (a < b || a < c)
+            {
+                Console.WriteLine("O número " + a + " é o menor número");
+            }
+            else if (b < a || b < c)
+            {
+                Console.WriteLine("O número " + b + " é o menor número");
+            }
+            else if (c < a || c < b)
+            {
+                Console.WriteLine("O número " + c + " é o menor número");
+            }
+
+QUARTA QUESTÃO
+            double celsius = 32.5;
+            double calcF = 0;
+
+            calcF = (celsius * 9 / 5) + 32;
+
+            Console.WriteLine("A conversão de " + celsius + "ºC para fahrenheit é: " + calcF);
+
+SEXTA QUESTÃO
+	    Console.WriteLine("Insira o tempo do jogo neste formato HH:MM");
+            double inicial = double.Parse(Console.ReadLine());
+            double final = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("O jogou durou: " + (final - inicial) + " horas");   
+
+SÉTIMA QUESTÃO
+int[] numero;
+            numero = new int[5];
+
+            numero[0] = 10;
+            numero[1] = 11;
+            numero[2] = 12;
+            numero[3] = 13;
+            numero[4] = 14;
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (numero[i] % 2 == 0)
+                {
+                    Console.WriteLine(numero[i] + " são os numeros pares");
+                }
+            } 
+
+OITAVA QUESTÃO
+int numero = int.Parse(Console.ReadLine());
+
+            if (numero == 2 || numero == 3 || numero == 5 || numero == 7)
+            {
+                Console.WriteLine("Este numero é primo");
+            }
+
+            else if (numero % 2 == 0 || numero % 3 == 0 || numero % 5 == 0 || numero % 7 == 0)
+            {
+                Console.WriteLine("Este número não é primo");
+            }
+
+            else
+            {
+                Console.WriteLine("Este número é primo");
+            }   
+
+NONA QUESTÃO
+int numero = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(numero + " X " + i + " = " + numero * i);
+            }   
+
+DÉCIMA QUESTÃO
+int numero = int.Parse(Console.ReadLine());
+
+            Console.Write(numero + "! = ");
+            for (int i = 0; i < numero; i++)
+            {                                
+                Console.Write(" " + i + " ");
+            }      
